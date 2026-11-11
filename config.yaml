@@ -1,0 +1,7 @@
+port: "8080"
+
+db:
+  url: "postgres://grades:grades@localhost:5432/grades?sslmode=disable"
+
+jwt:
+  secret: "supersecretkey"
